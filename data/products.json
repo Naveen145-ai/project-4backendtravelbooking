@@ -1,0 +1,218 @@
+[{
+    "name": "Kulu Manali",
+    "price":103.13,
+    "ratings":4.5,
+    "description":"A beautiful hill station known for its snow-covered mountains, adventure sports, and scenic landscapes.",
+    "Enter": "Chennai to Bhuntar Airport (nearest airport), then a drive to Manali",
+    "Return": "Bhuntar → Delhi → Chennai",
+    "stock":10,
+    "images" : [
+        {
+            "image": "/images/products/1.jpg"
+        }
+    ],
+    "Date": "25-2-2025 to 28-2-2025",
+    "Hotels":"1.The Himalayan (5-star),2.Manali Heights (4-star),3.Snow Valley Resorts (3-star)",
+    "Places":"Solang Valley, Rohtang Pass, Hidimba Temple, Manu Temple, Mall Road"
+
+},
+{
+"name": "Singapore",
+    "price":163.93,
+    "ratings":4.0,
+    "description":"A vibrant city-state offering a mix of modern attractions, cultural heritage, and entertainment",
+    "Enter": "Chennai → Singapore Changi Airport (4 hr 30 min)",
+    "Return": "Singapore → Chennai",
+    "stock":5,
+    "images" : [
+        {
+            "image": "/images/products/2.jpg"
+        }
+    ],
+    "Date": "22-3-2025 to 27-3-2025",
+    "Hotels":"1.Marina Bay Sands (5-star),2.Raffles Hotel Singapore (5-star),3.Hotel Jen Orchardgateway (4-star)",
+    "Places":"Gardens by the Bay, Universal Studios Singapore, Sentosa Island, Merlion Park, Chinatown"
+},
+
+{
+    "name": "Goa",
+    "price":163.93,
+    "ratings":3.5,
+    "description":"A tropical paradise famous for its beaches, nightlife, water sports, and Portuguese heritage.",
+    "Enter": "Chennai → Goa International Airport (2 hr)",
+    "Return": "Goa → Chennai",
+    "stock":15,
+    "images" : [
+        {
+            "image": "/images/products/3.jpg"
+        }
+    ],
+    "Date": "15-4-2025 to 20-4-2025",
+    "Hotels":"1.Taj Exotica Resort & Spa (5-star)),2.The Leela Goa (5-star),3.Holiday Inn Resort Goa (4-star)",
+    "Places":"Baga Beach, Fort Aguada, Dudhsagar Waterfalls, Calangute Beach, Spice Plantations"
+},
+
+{
+    "name": "Rajasthan",
+    "price":145.16,
+    "ratings":2.5,
+    "description":"The land of kings, known for its grand forts, palaces, deserts, and rich cultural heritage.",
+    "Enter": "Chennai -> Jaipur International Airport (3 hr 15 min)",
+    "Return": "Jaipur → Chennai",
+    "stock":20,
+    "images" : [
+        {
+            "image": "/images/products/4.jpg"
+        }
+    ],
+    "Date": "14-2-2025 to 18-2-2025",
+    "Hotels":"Rambagh Palace (Jaipur, 5-star),2.The Oberoi Udaivilas (Udaipur, 5-star),3.Umaid Bhawan Palace (Jodhpur, 5-star)",
+    "Places":"Amer Fort, City Palace, Lake Pichola, Mehrangarh Fort, Jantar Mantar"
+},
+
+{
+    "name": "Kerala",
+    "price":60.42,
+    "ratings":4.0,
+    "description":"A lush green state with beautiful backwaters, hill stations, and traditional Ayurvedic treatments.",
+    "Enter": "Chennai → Cochin International Airport (1 hr 20 min)",
+    "Return": "Cochin → Chennai",
+    "stock":5,
+    "images" : [
+        {
+            "image": "/images/products/5.jpg"
+        }
+    ],
+    "Date": "13-4-2025 to 18-4-2025",
+    "Hotels":"1.The Leela Kovalam Beach (5-star),2.Spice Village Thekkady (4-star),3.The Tall Trees Munnar (4-star)",
+    "Places":"Backwaters of Alleppey, Munnar Tea Gardens, Thekkady Wildlife Sanctuary, Fort Kochi"
+},
+
+{
+    "name": "Andaman and Nicobar Islands",
+    "price":905.42,
+    "ratings":5,
+    "description":"A tropical getaway with crystal-clear waters, pristine beaches, and rich marine life.",
+    "Enter": "Chennai → Veer Savarkar International Airport (Port Blair) (2 hr 10 min)",
+    "Return": "Port Blair → Chennai",
+    "stock":10,
+    "images" : [
+        {
+            "image": "/images/products/6.jpg"
+        }
+    ],
+    "Date": "12-5-2025 to 05-5-2025",
+    "Hotels":"1.Taj Exotica Resort & Spa (5-star),2.Seashell Havelock (4-star),3.Silver Sand Beach Resort (3-star)",
+    "Places":" Radhanagar Beach, Cellular Jail, Snorkeling at Havelock, Ross Island"
+},
+
+{
+  "name": "Leh Ladakh, Jammu & Kashmir",
+    "price":193.92,
+    "ratings":4.5,
+    "description":"A dream destination for adventure lovers, offering breathtaking landscapes and monasteries.",
+    "Enter": "Chennai → Delhi (2 hr 50 min),Delhi → Leh Airport (1 hr 30 min)",
+    "Return": "Leh → Delhi → Chennai",
+    "stock":15,
+    "images" : [
+        {
+            "image": "/images/products/7.jpg"
+        }
+    ],
+    "Date": "20-5-2025 to 27-5-2025",
+    "Hotels":"1.The Grand Dragon Ladakh (5-star),2.Ladakh Sarai (4-star),3.Hotel Kanglachen (3-star)",
+    "Places":"Pangong Lake, Nubra Valley, Thiksey Monastery, Khardung La Pass"  
+},
+
+{
+    "name": "Shimla, Himachal Pradesh",
+    "price":104.02,
+    "ratings":4,
+    "description":"A charming hill station known for its colonial architecture, scenic views, and pleasant weather.",
+    "Enter": "Chennai → Delhi (2 hr 50 min),Delhi → Chandigarh (1 hr 10 min) (Nearest airport to Shimla)",
+    "Return": "Chandigarh → Delhi → Chennai",
+    "stock":20,
+    "images" : [
+        {
+            "image": "/images/products/8.jpg"
+        }
+    ],
+    "Date": "10-3-2025 to 14-3-2025",
+    "Hotels":"1.Wildflower Hall (5-star),2.Radisson Hotel Shimla (4-star),3.The Oberoi Cecil (5-star)",
+    "Places":"Mall Road, Kufri, Christ Church, Jakhoo Temple, Shimla Ridge"
+},
+
+{
+    "name": "Rishikesh, Utterkhand",
+    "price":79.82,
+    "ratings":3.5,
+    "description":"The yoga capital of the world, famous for its spiritual vibes, river rafting, and scenic beauty.",
+    "Enter":"Chennai → Delhi (2 hr 50 min),Delhi -> Dehradun (1 hr 10 min) (Nearest airport to Rishikesh)",
+    "Return":"Dehradun → Delhi → Chennai",
+    "stock":24,
+    "images" : [
+        {
+            "image": "/images/products/9.jpg"
+        }
+    ],
+    "Date": "07-4-2025 to 12-4-2025",
+    "Hotels":"Aloha on the Ganges (4-star),2.Lemon Tree Premier, Rishikesh (4-star),3.The Glasshouse on the Ganges (4-star)",
+    "Places":"River rafting, Lakshman Jhula, Ganga Aarti at Triveni Ghat, Beatles Ashram, Neer Garh Waterfall"
+},
+
+{
+    "name": "Ooty, Tamil Nadu",
+    "price":43.57,
+    "ratings":3,
+    "description":"A picturesque hill station known for its tea gardens, botanical gardens, and toy train rides.",
+    "Enter":"Chennai → Coimbatore International Airport (1 hr 10 min)",
+    "Return":" Coimbatore → Chennai",
+    "stock":10,
+
+    "images" : [
+        {
+            "image": "/images/products/10.jpg"
+        }
+    ],
+    "Date": "25-5-2025 to 30-2-2025",
+    "Hotels":"1.The Himalayan (5-star),2.Manali Heights (4-star),3.Snow Valley Resorts (3-star)",
+    "Places":"Solang Valley, Rohtang Pass, Hidimba Temple, Manu Temple, Mall Road"
+},
+
+{
+    "name": "Mysore, karnataka",
+    "price":144.57,
+    "ratings":4.5,
+    "description":"A city of palaces and rich heritage, famous for its royal history, vibrant Dasara festival, and beautiful gardens.",
+    "Enter":"Chennai → Bangalore Kempegowda International Airport (1 hr 5 min),Bangalore → Mysore (by road, 3 hr)",
+    "Return":"Mysore → Bangalore → Chennai",
+    "stock":5,
+    "images" : [
+        {
+            "image": "/images/products/11.jpg"
+        }
+    ],
+    "Date": "25-2-2025 to 28-2-2025",
+    "Hotels":"1.The Lalitha Mahal Palace Hotel (5-star),2.Radisson Blu Plaza Hotel Mysore (4-star),3.Silent Shores Resort & Spa (4-star)",
+    "Places":"Mysore Palace, Chamundeshwari Temple, Brindavan Gardens, St. Philomena's Church"
+},
+
+{
+    "name": "Darjeeling, West Bengal",
+    "price":96.34,
+    "ratings":4,
+    "description":"A charming hill station known for its tea plantations, toy train, and stunning views of the Kanchenjunga mountains.",
+    "Enter":"Chennai → Bagdogra Airport (3 hr 20 min) (Nearest airport to Darjeeling)",
+    "Return":"Bagdogra → Chennai",
+    "stock":15,
+    "images" : [
+        {
+            "image": "/images/products/12.jpg"
+        }
+    ],
+    "Date": "25-6-2025 to 30-6-2025",
+    "Hotels":"1.Glenburn Tea Estate (5-star),2.The Windamere Hotel (4-star),3.Summit Grace Hotel & Spa (3-star)",
+    "Places":"Tiger Hill, Batasia Loop, Himalayan Mountaineering Institute, Peace Pagoda"
+}
+
+]

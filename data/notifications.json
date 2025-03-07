@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "title": "Kullu Manali Adventure Tour",
+      "message": "Join us for an exciting trip to Kullu Manali with snow activities and adventure sports. Departure on March 10.",
+      "date": "2025-03-10"
+    },
+    {
+      "id": 2,
+      "title": "Singapore Grand Tour",
+      "message": "Experience the best of Singapore with a city tour, Sentosa Island, and Universal Studios. Tour starts on March 15.",
+      "date": "2025-03-15"
+    },
+    {
+      "id": 3,
+      "title": "Goa Beach Holiday",
+      "message": "Relax on the sandy beaches of Goa with water sports, nightlife, and beach parties. Departure on March 20.",
+      "date": "2025-03-20"
+    },
+    {
+      "id": 4,
+      "title": "Royal Rajasthan Heritage Tour",
+      "message": "Explore the palaces, forts, and desert landscapes of Rajasthan. Tour begins on March 25.",
+      "date": "2025-03-25"
+    },
+    {
+      "id": 5,
+      "title": "Kerala Backwaters Cruise",
+      "message": "Enjoy a scenic houseboat cruise in the backwaters of Kerala with Ayurvedic wellness. Departure on March 30.",
+      "date": "2025-03-30"
+    },
+    {
+      "id": 6,
+      "title": "Andaman & Nicobar Island Getaway",
+      "message": "Scuba diving, coral reef exploration, and stunning beaches await you in Andaman. Trip starts on April 5.",
+      "date": "2025-04-05"
+    },
+    {
+      "id": 7,
+      "title": "Ladakh Bike Expedition",
+      "message": "Ride through the high-altitude passes of Ladakh and visit Pangong Lake. Expedition begins on April 12.",
+      "date": "2025-04-12"
+    },
+    {
+      "id": 8,
+      "title": "Shimla Winter Wonderland",
+      "message": "Enjoy snow-covered mountains, colonial architecture, and scenic views in Shimla. Tour starts on April 18.",
+      "date": "2025-04-18"
+    },
+    {
+      "id": 9,
+      "title": "Rishikesh Yoga & Adventure Retreat",
+      "message": "Immerse in yoga, meditation, and thrilling river rafting in Rishikesh. Retreat starts on April 22.",
+      "date": "2025-04-22"
+    },
+    {
+      "id": 10,
+      "title": "Ooty Hill Station Escape",
+      "message": "Enjoy the cool climate, tea plantations, and misty mountains of Ooty. Trip starts on April 28.",
+      "date": "2025-04-28"
+    },
+    {
+      "id": 11,
+      "title": "Mysore Dasara Festival Tour",
+      "message": "Witness the grandeur of Mysore Palace during the Dasara Festival. Tour begins on May 5.",
+      "date": "2025-05-05"
+    },
+    {
+      "id": 12,
+      "title": "Darjeeling Toy Train & Tea Gardens",
+      "message": "Ride the heritage toy train and explore scenic tea plantations in Darjeeling. Trip starts on May 12.",
+      "date": "2025-05-12"
+    }
+    
+  ]
+  
