@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 
-const loginSchema = new mongoose.Schema(
+const adminloginSchema = new mongoose.Schema(
     {
         email: { type: String, required: true },
         phone: { type: Number, required: true }
     }
 );
 
-const loginModel = mongoose.model('Login', loginSchema);
+const adminloginModel = mongoose.model('adminLogin', adminloginSchema);
 
-module.exports = loginModel;
+module.exports = adminloginModel;
 

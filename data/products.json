@@ -1,6 +1,9 @@
 [{
     "name": "Kulu Manali",
-    "price":103.13,
+    "child":60.35,
+    "teen":80.50,
+    "adults":103.13,
+    "senior":90.50,
     "ratings":4.5,
     "description":"A beautiful hill station known for its snow-covered mountains, adventure sports, and scenic landscapes.",
     "Enter": "Chennai to Bhuntar Airport (nearest airport), then a drive to Manali",
@@ -11,14 +14,17 @@
             "image": "/images/products/1.jpg"
         }
     ],
-    "Date": "25-2-2025 to 28-2-2025",
+    "Date": "25-2-2025 to 28-  2-2025",
     "Hotels":"1.The Himalayan (5-star),2.Manali Heights (4-star),3.Snow Valley Resorts (3-star)",
     "Places":"Solang Valley, Rohtang Pass, Hidimba Temple, Manu Temple, Mall Road"
 
 },
 {
 "name": "Singapore",
-    "price":163.93,
+    "child":63.93,
+    "teen":85.50,
+    "adults":203.13,
+    "senior":150.50,
     "ratings":4.0,
     "description":"A vibrant city-state offering a mix of modern attractions, cultural heritage, and entertainment",
     "Enter": "Chennai → Singapore Changi Airport (4 hr 30 min)",
@@ -36,7 +42,10 @@
 
 {
     "name": "Goa",
-    "price":163.93,
+    "child":100.93,
+    "teen":185.50,
+    "adults":243.13,
+    "senior":130.50,
     "ratings":3.5,
     "description":"A tropical paradise famous for its beaches, nightlife, water sports, and Portuguese heritage.",
     "Enter": "Chennai → Goa International Airport (2 hr)",
@@ -54,7 +63,10 @@
 
 {
     "name": "Rajasthan",
-    "price":145.16,
+    "child":163.93,
+    "teen":185.50,
+    "adults":263.13,
+    "senior":190.50,
     "ratings":2.5,
     "description":"The land of kings, known for its grand forts, palaces, deserts, and rich cultural heritage.",
     "Enter": "Chennai -> Jaipur International Airport (3 hr 15 min)",
@@ -72,7 +84,10 @@
 
 {
     "name": "Kerala",
-    "price":60.42,
+    "child":63.93,
+    "teen":85.50,
+    "adults":203.13,
+    "senior":150.50,
     "ratings":4.0,
     "description":"A lush green state with beautiful backwaters, hill stations, and traditional Ayurvedic treatments.",
     "Enter": "Chennai → Cochin International Airport (1 hr 20 min)",
@@ -90,7 +105,10 @@
 
 {
     "name": "Andaman and Nicobar Islands",
-    "price":905.42,
+    "child":145.93,
+    "teen":170.50,
+    "adults":230.13,
+    "senior":160.50,
     "ratings":5,
     "description":"A tropical getaway with crystal-clear waters, pristine beaches, and rich marine life.",
     "Enter": "Chennai → Veer Savarkar International Airport (Port Blair) (2 hr 10 min)",
@@ -108,7 +126,10 @@
 
 {
   "name": "Leh Ladakh, Jammu & Kashmir",
-    "price":193.92,
+  "child":163.93,
+  "teen":185.50,
+  "adults":203.13,
+  "senior":150.50,
     "ratings":4.5,
     "description":"A dream destination for adventure lovers, offering breathtaking landscapes and monasteries.",
     "Enter": "Chennai → Delhi (2 hr 50 min),Delhi → Leh Airport (1 hr 30 min)",
@@ -126,7 +147,10 @@
 
 {
     "name": "Shimla, Himachal Pradesh",
-    "price":104.02,
+    "child":149.93,
+    "teen":199.50,
+    "adults":299.13,
+    "senior":145.50,
     "ratings":4,
     "description":"A charming hill station known for its colonial architecture, scenic views, and pleasant weather.",
     "Enter": "Chennai → Delhi (2 hr 50 min),Delhi → Chandigarh (1 hr 10 min) (Nearest airport to Shimla)",
@@ -144,7 +168,10 @@
 
 {
     "name": "Rishikesh, Utterkhand",
-    "price":79.82,
+    "child":175.93,
+    "teen":200.50,
+    "adults":275.13,
+    "senior":189.50,
     "ratings":3.5,
     "description":"The yoga capital of the world, famous for its spiritual vibes, river rafting, and scenic beauty.",
     "Enter":"Chennai → Delhi (2 hr 50 min),Delhi -> Dehradun (1 hr 10 min) (Nearest airport to Rishikesh)",
@@ -162,7 +189,10 @@
 
 {
     "name": "Ooty, Tamil Nadu",
-    "price":43.57,
+    "child":63.93,
+    "teen":85.50,
+    "adults":203.13,
+    "senior":150.50,
     "ratings":3,
     "description":"A picturesque hill station known for its tea gardens, botanical gardens, and toy train rides.",
     "Enter":"Chennai → Coimbatore International Airport (1 hr 10 min)",
@@ -181,7 +211,10 @@
 
 {
     "name": "Mysore, karnataka",
-    "price":144.57,
+    "child":166.93,
+    "teen":178.50,
+    "adults":299.13,
+    "senior":199.50,
     "ratings":4.5,
     "description":"A city of palaces and rich heritage, famous for its royal history, vibrant Dasara festival, and beautiful gardens.",
     "Enter":"Chennai → Bangalore Kempegowda International Airport (1 hr 5 min),Bangalore → Mysore (by road, 3 hr)",
@@ -199,7 +232,10 @@
 
 {
     "name": "Darjeeling, West Bengal",
-    "price":96.34,
+    "child":149.93,
+    "teen":195.50,
+    "adults":290.13,
+    "senior":180.50,
     "ratings":4,
     "description":"A charming hill station known for its tea plantations, toy train, and stunning views of the Kanchenjunga mountains.",
     "Enter":"Chennai → Bagdogra Airport (3 hr 20 min) (Nearest airport to Darjeeling)",
