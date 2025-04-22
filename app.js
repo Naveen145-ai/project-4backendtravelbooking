@@ -32,29 +32,3 @@ app.listen(process.env.PORT, () => {
     console.log(`Server is running in ${process.env.NODE_ENV} mode on port ${process.env.PORT}`);
 });
 
-
-/*var nodemailer = require('nodemailer');
-
-var transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: 'Naveen',
-    pass: 'hellomail'
-  }
-});
-
-var mailOptions = {
-  from: 'naveensrinivasv.23cse@kongu.edu',
-  to: 'rithishr.23cse@kongu.edu',
-  subject: 'Sending Email using Node.js',
-  text: 'This is the emaio sent for learning!'
-};
-
-transporter.sendMail(mailOptions, function(error, info){
-  if (error) {
-    console.log(error);
-  } else {
-    console.log('Email sent: ' + info.response);
-  }
-}); 
-*/
