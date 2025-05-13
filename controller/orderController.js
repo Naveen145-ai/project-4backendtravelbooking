@@ -71,8 +71,10 @@ exports.createOrder = async (req, res, next) => {
         const bulkUpdateOps = cartItems.map(item => ({
             updateOne: {
                 filter: { _id: item.product._id },
-                update: { $inc: { stock: -item.qty }
+                update: { $inc: { stock: -item.qty } }
+            }
         }));
+        
 
         await productModel.bulkWrite(bulkUpdateOps);
 
