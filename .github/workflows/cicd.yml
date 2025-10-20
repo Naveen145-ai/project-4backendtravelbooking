@@ -16,14 +16,15 @@ jobs:
     #this action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
       uses: actions/checkout@v5
     #this for login to docker hub and build and push the image to docker hub
-    - name: Login to docker hub
-      run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+    - name: Login to Docker Hub
+      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
     - name: Build Docker Image
-      run: #this command will build the docker image
-        docker build -t naveen656/myfirstimagedeploy/backendtravelbooking .
+      run: docker build -t naveen656/myfirstimagedeploy/backendtravelbooking:latest .
+
     - name: Publish Image to Docker hub
-      run:  #we are going to push the image to docker hub(latest image)
-        docker push naveen656/myfirstimagedeploy/backendtravelbooking:latest
+      run: docker push naveen656/myfirstimagedeploy/backendtravelbooking:latest
+        
 
   deploy:
     needs: build
@@ -32,5 +33,6 @@ jobs:
     - name: Pull Image from Docker Hub
       run: docker pull naveen656/myfirstimagedeploy/backendtravelbooking:latest
     - name: Run Docker Container
-      run: docker run -d -p 5000:5000 --name backendtravelbookingcontainer -e MONGO_PASSWORD='${{secrets.MONGO_PASSWORD}}' naveen656/myfirstimagedeploy/backendtravelbooking:latest
+      run: docker run -d -p 5000:5000 --name backendtravelbookingcontainer -e MONGO_PASSWORD="${{ secrets.MONGO_PASSWORD }}" naveen656/myfirstimagedeploy/backendtravelbooking:latest
+
       
