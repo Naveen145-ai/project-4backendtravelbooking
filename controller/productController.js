@@ -26,3 +26,5 @@ exports.getSingleProduct = async (req, res, next) => {
     })
 }
 }
+
+console.log("hi");
