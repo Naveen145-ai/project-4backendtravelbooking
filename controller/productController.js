@@ -4,7 +4,6 @@ exports.getProducts = async (req, res, next) => {
         $regex:req.query.keyword,
         $options : 'i'
     }}:{}  
-
     const products = await ProductModel.find(query);
 
     res.json({
@@ -12,13 +11,9 @@ exports.getProducts = async (req, res, next) => {
         products
     })
 }
-
-exports.getSingleProduct = async (req, res, next) => {
-    
+exports.getSingleProduct = async (req, res, next) => { 
     try{
     const product = await ProductModel.findById(req.params.id);
-
-
     res.json({
         success: true,
       product
@@ -29,7 +24,5 @@ exports.getSingleProduct = async (req, res, next) => {
         message: 'ID can not to be found'
       
     })
-
 }
-
 }
