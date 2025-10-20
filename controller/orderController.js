@@ -72,7 +72,7 @@ exports.createOrder = async (req, res, next) => {
             updateOne: {
                 filter: { _id: item.product._id },
                 update: { $inc: { stock: -item.qty }
-        }));
+        }}}));
 
         await productModel.bulkWrite(bulkUpdateOps);
 

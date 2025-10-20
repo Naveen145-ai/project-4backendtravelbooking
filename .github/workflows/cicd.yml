@@ -1,0 +1,36 @@
+name: Deploy Node Application  #name of the workflow
+# This workflow deploys a Node.js application to a server upon pushing to the main branch.
+# where it should be triggered
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repository
+    - name: Checkout Source
+    #this action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
+      uses: actions/checkout@v5
+    #this for login to docker hub and build and push the image to docker hub
+    - name: Login to docker hub
+      run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+    - name: Build Docker Image
+      run: #this command will build the docker image
+        docker build -t naveen656/myfirstimagedeploy/backendtravelbooking .
+    - name: Publish Image to Docker hub
+      run:  #we are going to push the image to docker hub(latest image)
+        docker push naveen656/myfirstimagedeploy/backendtravelbooking:latest
+
+  deploy:
+    needs: build
+    runs-on: self-hosted
+    steps:
+    - name: Pull Image from Docker Hub
+      run: docker pull naveen656/myfirstimagedeploy/backendtravelbooking:latest
+    - name: Run Docker Container
+      run: docker run -d -p 5000:5000 --name backendtravelbookingcontainer -e MONGO_PASSWORD='${{secrets.MONGO_PASSWORD}}' naveen656/myfirstimagedeploy/backendtravelbooking:latest
+      
