@@ -18,4 +18,4 @@ exports.createLogin = async (req, res) => {
         res.status(500).json({ success: false, message: "Server Error", error: error.message });
     }
 };
-
+console.log("hi");
