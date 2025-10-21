@@ -89,3 +89,4 @@ await productModel.bulkWrite(bulkUpdateOps);
 
 
 console.log("orderController.js loaded");
+console.log("hi");
