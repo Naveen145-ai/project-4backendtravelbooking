@@ -20,3 +20,4 @@ exports.createLogin = async (req, res) => {
 };
 console.log("hi");
 console.log("loginController.js loaded");
+console.log("loginController.js loaded");
