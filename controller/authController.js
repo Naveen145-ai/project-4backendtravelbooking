@@ -79,3 +79,4 @@ exports.verifyOtp = (req, res) => {
   }
 };
 
+console.log("authController.js loaded");
