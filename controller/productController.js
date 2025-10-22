@@ -30,3 +30,4 @@ exports.getSingleProduct = async (req, res, next) => {
 console.log("hi");
 console.log("Hello");
 console.log("Product controller loaded");
+console.log("hello");
