@@ -23,3 +23,4 @@ console.log("loginController.js loaded");
 console.log("loginController.js loaded");
 console.log("loginController.js loaded");
 console.log("hi")
+console.log("hi");
