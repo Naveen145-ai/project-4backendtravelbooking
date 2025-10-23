@@ -32,3 +32,5 @@ exports.adminLogin = async (req, res) => {
 
 console.log("adminloginController.js loaded");
 console.log("adminloginController.js loaded");
+
+console.log("hello");
