@@ -23,16 +23,17 @@ app.use(
   helmet({
     contentSecurityPolicy: {
       directives: {
-        defaultSrc: ["'self'"],
-        imgSrc: ["'self'", "*"], // allow images from your backend
+        defaultSrc: ["'self'", "http://54.157.201.9:4000"],
+        imgSrc: ["'self'", "http://54.157.201.9:4000", "*"],
         scriptSrc: ["'self'"],
         styleSrc: ["'self'"],
-        connectSrc: ["'self'", "http://localhost:3000"], // allow frontend API calls
+        connectSrc: ["'self'", "http://localhost:3000", "http://54.157.201.9:3000"],
         fontSrc: ["'self'"],
       },
     },
   })
 );
+
 
 app.use(express.json());
 app.use(cors({ origin: ["http://localhost:3000", "http://54.157.201.9:3000"] }));
@@ -49,3 +50,6 @@ app.use('/api/v1/admin', adminRoutes); // Register route
 app.listen(process.env.PORT, () => {
     console.log(`Server is running in ${process.env.NODE_ENV} mode on port ${process.env.PORT}`);
 });
+
+
+console.log("hi");
