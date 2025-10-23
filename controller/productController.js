@@ -32,3 +32,4 @@ console.log("Hello");
 console.log("Product controller loaded");
 console.log("hello");
 console.log("Product controller loaded");
+console.log("Hello");
