@@ -18,39 +18,19 @@ const authRoutes = require("./routes/auth");
 
 connectDatabase();
 
-// Helmet security headers including correct CSP
+// Helmet security headers - permissive CSP for development
 app.use(
   helmet({
-    contentSecurityPolicy: {
-      directives: {
-        defaultSrc: ["'self'"], // default allow only self
-        imgSrc: [
-          "'self'",
-          "http://54.157.201.9:4000", // allow images/favicons from backend
-          "data:", // allow base64 images
-        ],
-        scriptSrc: [
-          "'self'",
-          "https://cdnjs.cloudflare.com", // allow CDN scripts
-        ],
-        styleSrc: [
-          "'self'",
-          "https://cdnjs.cloudflare.com", // allow CDN styles
-          "'unsafe-inline'", // allow inline styles if needed
-        ],
-        connectSrc: [
-          "'self'",
-          "http://54.157.201.9:4000", // backend API calls
-          "http://54.157.201.9:3000", // frontend dev server
-        ],
-        fontSrc: [
-          "'self'",
-          "https://cdnjs.cloudflare.com", // web fonts
-        ],
-      },
-    },
+    contentSecurityPolicy: false, // Disable CSP for development
   })
 );
+
+// CORS for frontend - allow all origins in development
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 // JSON body parser
 app.use(express.json());
@@ -58,7 +38,17 @@ app.use(express.json());
 // CORS for frontend
 app.use(cors({ origin: ["http://localhost:3000", "http://54.157.201.9:3000"] }));
 
-// Routes
+// Root route
+app.get('/', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: 'Welcome to the MERN API',
+    api_documentation: '/api/v1',
+    status: 'Server is running'
+  });
+});
+
+// API Routes
 app.use('/api/v1/', products);
 app.use('/api/v1/', orders);
 app.use('/api/v1/', logins);
