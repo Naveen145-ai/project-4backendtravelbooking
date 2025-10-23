@@ -35,7 +35,8 @@ app.use(
 );
 
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: ["http://localhost:3000", "http://54.157.201.9:3000"] }));
+
 
 app.use('/api/v1/', products);
 app.use('/api/v1/', orders);
