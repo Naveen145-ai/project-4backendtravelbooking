@@ -32,6 +32,9 @@ jobs:
     steps:
     - name: Pull Image from Docker Hub
       run: docker pull naveen656/myfirstimagedeploy:latest
+    - name: Delete old container
+      run: docker rm -f backendtravelbookingcontainer
+  
     - name: Run Docker Container
       run: docker run -d -p 4000:4000 --name backendtravelbookingcontainer -e MONGO_PASSWORD="${{ secrets.MONGO_PASSWORD }}" naveen656/myfirstimagedeploy:latest
 
