@@ -35,3 +35,4 @@ console.log("adminloginController.js loaded");
 
 console.log("hello");
 console.log("Hi");
+console.log("Hi");
